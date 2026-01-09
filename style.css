@@ -1,3 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inter;
+}
+
 body {
-    background-color: aqua;
+  line-height: 1.6;
+  color: #0a2540;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+
+.navbar {
+  background: #fff;
+  padding: 16px 120px 16px 120px;
+}
+
+.nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.btn-primary {
+  background: #4a9c6d;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 12px 20px;
+  border-radius: 6px;
+  margin-left: 10px;
+}
+
+.hero {
+  background: url("./assets/hero-bg.png") center;
+  height: 90vh;
+  position: relative;
+}
+
+.hero-overlay {
+  background: rgba(0, 20, 40, 0.7);
+  color: white;
+  height: 100%;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin: 20px 0;
+}
+
+.hero h1 span {
+  color: #4a9c6d;
+}
+
+.hero p {
+  max-width: 700px;
+  margin: auto;
+}
+
+.badge {
+  background: white;
+  color: #4a9c6d;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.notes {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 40px;
+}
+
+.card {
+  background: hwb(0 97% 3%);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(255,255,255,1);
+}
+
+.split {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.brain-img {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.second-brain ul li {
+  list-style: none;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.second-brain ul img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+
+.early-access {
+  background: #f7f5ef;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+
+.footer {
+  background: #001c38;
+  color: #fff;
+  padding: 40px 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socials a {
+  margin: 0 5px;
+  color: #fff;
+  text-decoration: none;
+}
+
+footer p {
+  color: rgba(250, 250, 250, 1);
+
+font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
 }
